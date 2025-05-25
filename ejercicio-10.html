@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Página Web</title>
+    <style>
+        /* Bloque de Estilo Organizado */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Estilos para la Tabla */
+        table {
+            width: 80%;
+            margin: 0 auto 40px auto; /* Centrar la tabla y añadir espacio debajo */
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Estilos para la Lista */
+        ul {
+            width: 70%;
+            margin: 0 auto 40px auto; /* Centrar la lista y añadir espacio debajo */
+            list-style-type: disc;
+            padding-left: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Estilos para el Bloque de Contenido Adicional */
+        .contenido-adicional {
+            width: 70%;
+            margin: 0 auto;
+            padding: 25px;
+            background-color: #e9f7ef;
+            border-left: 5px solid #28a745;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .contenido-adicional p {
+            margin: 0;
+            line-height: 1.6;
+            color: #216f39;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenido a Nuestra Mini Página</h1>
+
+    <p style="text-align: center; margin-bottom: 30px;">Aquí encontrarás información organizada en una tabla, una lista y un bloque de contenido adicional.</p>
+
+    ---
+
+    <h2>Información de Productos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Categoría</th>
+                <th>Precio</th>
+                <th>Disponibilidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop X1</td>
+                <td>Electrónica</td>
+                <td>$1200</td>
+                <td>En stock</td>
+            </tr>
+            <tr>
+                <td>Teclado Mecánico</td>
+                <td>Periféricos</td>
+                <td>$85</td>
+                <td>En stock</td>
+            </tr>
+            <tr>
+                <td>Monitor Curvo 27"</td>
+                <td>Electrónica</td>
+                <td>$350</td>
+                <td>Agotado</td>
+            </tr>
+            <tr>
+                <td>Mouse Inalámbrico</td>
+                <td>Periféricos</td>
+                <td>$30</td>
+                <td>En stock</td>
+            </tr>
+        </tbody>
+    </table>
+
+    ---
+
+    <h2>Lista de Tareas Pendientes</h2>
+    <ul>
+        <li>Comprar víveres para la semana.</li>
+        <li>Enviar el informe mensual.</li>
+        <li>Planificar la reunión del equipo.</li>
+        <li>Llamar al cliente X para seguimiento.</li>
+        <li>Estudiar para el examen de mañana.</li>
+    </ul>
+
+    ---
+
+    <h2>Nota Importante</h2>
+    <div class="contenido-adicional">
+        <p>Este es un bloque de contenido adicional. Puede usarlo para resaltar información importante, avisos o cualquier texto que necesite un formato distinto para llamar la atención del usuario.</p>
+        <p>Recuerda mantener tu código limpio y bien comentado para facilitar su mantenimiento y futuras modificaciones.</p>
+    </div>
+
+</body>
+</html>
